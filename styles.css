@@ -1,0 +1,178 @@
+body{
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+
+}
+
+
+h1, h2, h3, h4{
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+
+}
+
+p{color: grey;}
+
+
+
+/* heading  */
+
+.big-heading{font-size: 3rem;
+font-family: 'Montserrat', sans-serif;
+line-height: 2;
+color: white;
+text-align: left;
+}
+
+.second-heading{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  color: #fff;
+}
+
+
+/* title section */
+
+
+#title {
+  background-color: #ef8172;
+
+}
+.container-fluid{
+  padding: 5% 15% 150px ;
+}
+.title-image {
+  transform: rotate(30deg);
+  transform-origin: 20% 40%;
+  padding: 1rem 3rem;
+  width: 70%;
+position: absolute;
+left:100px;
+}
+
+
+
+/* navbar */
+
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  font-family: "Montserrat-light"sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+
+/* features */
+#features{padding: 7% 15% ;
+  background-color: white;
+position: relative;
+
+}
+
+.feat-box{
+  padding: 5%;
+}
+.font-awesome{
+  color: #ef8172;
+font-size: 7rem;
+margin-bottom: 2rem;
+
+}
+
+.font-awesome:hover{
+  color: #ff4c68 !important;
+}
+
+/* testimonial section */
+
+#testimonials{
+
+  background-color: #ef8172;
+}
+.testimonial-image{width: 10%;
+margin: 1rem;
+border-radius: 100%;
+
+
+}
+.carousel-item{
+  padding:  7% 15%;
+}
+
+/* press section */
+
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: : 5% ;
+
+}
+.press-logo{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* pricing section  */
+
+#pricing{
+
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width:923px){
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    margin-left: 50px;
+  }
+  #title{text-align: center;}
+
+}
+
+
+/* call to action */
+
+#cta{background-color:#ff4c68;
+
+    height: 400px;
+    padding: 7% 30%;
+    }
+
+.cta-text{
+  line-height: 2;
+  color: white;
+  font-size: 32px;
+
+}
+.cta-btn{
+  margin: 20px 10px 20px;
+
+
+}
+@media (max-width:934px) {
+  .cta-text{line-height: 1.3;}
+
+}
+
+/* footer */
+
+#footer{height: 150px;
+
+padding: 7% 20%;
+}
+.footer-icon{margin: 15px 15px 20px;
+}
